@@ -51,6 +51,7 @@ def game_board(game_map, player=0, row=0, column=0, just_display=False):
         print("Something went very wrong!", e)
 
 
+play = True
 players = [1, 2]
 while play:
     game = [[0, 0, 0],
