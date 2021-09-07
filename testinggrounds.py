@@ -1,7 +1,7 @@
-import itertools
-'''
-player_choice = itertools.cycle([1, 2])
+game_size = 30
 
-for i in range(10):
-    print(next(player_choice))
-'''
+print("   0  1  2")
+
+s = "   "+"  ".join([str(i) for i in range(game_size)])
+
+print(s)
